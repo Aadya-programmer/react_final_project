@@ -1,16 +1,10 @@
 
-.reader-den{
-  background-image: url("./assests/bg4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center center; */
-  height: 650px;
-  width: 100%;
-}
-.btn{
-  margin-left: 80px;
-  margin-top: 30%;
-}
 .total-readers{
-  background-color: azure;
+  background-color: rgb(242, 245, 245);
+  height: 300px;
+}
+.top{
+  background-color: black;
+  width: 100%;
+  position: fixed;
 }
