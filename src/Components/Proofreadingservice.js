@@ -1,8 +1,10 @@
 import React from 'react';
+import { Footer } from '../Reusable/Footer';
 // import './Proofreading.css'; // Import your CSS file
 
 export const Proofreadingservice = () => {
   return (
+    <>
     <div className="proofreading-container">
       <section className="proofreading">
         <h2 style={{textAlign:"center"}}>Proofreading</h2>
@@ -51,6 +53,9 @@ export const Proofreadingservice = () => {
         </div>
       </section>
     </div>
+    
+    <Footer />
+    </>
   );
 };
 

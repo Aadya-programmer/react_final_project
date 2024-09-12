@@ -1,8 +1,10 @@
 import React from 'react';
 import { Card, Container } from 'react-bootstrap';
+import { Footer } from '../Reusable/Footer';
 
 export const Bookcoverservice = () => {
   return (
+    <>
     <Container className="custom-book-promo-container" style={{marginTop:"0px"}} fluid>
       <h2 className="custom-book-promo-heading text-center">Custom Book Cover Design</h2>
       <p className="custom-book-promo-text text-center">
@@ -51,6 +53,8 @@ export const Bookcoverservice = () => {
         </div>
       </div>
     </Container>
+    <Footer/>
+    </>
   );
 };
 

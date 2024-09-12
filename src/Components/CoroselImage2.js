@@ -1,9 +1,15 @@
-import corosel2 from './corosel2.jpeg';
-
-export function CoroselImage2(){
-  return(
+export function CoroselImage2() {
+  return (
     <>
-      <div style={{ backgroundImage: `url(${corosel2})`, backgroundSize: 'cover',backgroundPosition:'center', height: '500px', width: '100%' }} />
+      <div
+        style={{
+          backgroundImage: `url(${process.env.PUBLIC_URL}/images/corosel2.jpeg)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '500px',
+          width: '100%',
+        }}
+      />
     </>
   );
 }

@@ -11,7 +11,7 @@ export const AboutUs = () => {
       <div className="aboutUs-content">
         <div className="aboutUs-imageSection">
           <img
-            src="about.png" // Replace with your image URL
+            src="/images/about.png" // Replace with your image URL
             alt="Books and reading community"
             className="aboutUs-image"
           />

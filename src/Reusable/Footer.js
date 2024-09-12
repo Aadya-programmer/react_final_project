@@ -9,7 +9,7 @@ export const Footer = () => {
             <Container fluid>
                 <Row className="footer-top">
                     <Col md={4} className="footer-logo">
-                        <img src="./booklogo.png" alt="Reader Den Logo" className="logo-img" />
+                        <img src="/images/booklogo.png" alt="Reader Den Logo" className="logo-img" />
                         <p className="footer-quote">घर में जितनी किताबें, घर में उतने घर।</p>
                     </Col>
                     <Col md={2} className="footer-section">

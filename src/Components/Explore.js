@@ -56,19 +56,19 @@ export function Explore() {
           <br />
           <div className="genre-cards">
             <div className="genre-card">
-              <img src="mystery.jpeg" alt="Mystery" style={{height:"200px"}}/>
+              <img src="/images/mystery.jpeg" alt="Mystery" style={{height:"200px"}}/>
               <h3>Mystery</h3>
               <p>Unravel complex plots and enjoy thrilling mysteries.</p>
               <a href="#mystery-books">Explore Mysteries</a>
             </div>
             <div className="genre-card">
-              <img src="fantasy.jpeg" alt="Fantasy" style={{height:"200px"}} />
+              <img src="/images/fantasy.jpeg" alt="Fantasy" style={{height:"200px"}} />
               <h3>Fantasy</h3>
               <p>Embark on magical adventures in fantastical worlds.</p>
               <a href="#fantasy-books">Explore Fantasy</a>
             </div>
             <div className="genre-card">
-              <img src="nonfictionbooks.jpeg" alt="Non-Fiction" style={{height:"200px"}} />
+              <img src="/images/nonfictionbooks.jpeg" alt="Non-Fiction" style={{height:"200px"}} />
               <h3>Non-Fiction</h3>
               <p>Expand your knowledge with engaging non-fiction reads.</p>
               <a href="#non-fiction-books">Explore Non-Fiction</a>

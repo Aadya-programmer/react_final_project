@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
+import { Footer } from '../Reusable/Footer';
 // import './BookPromotion.css';  // We'll create this CSS file for custom styles
 
 export const Bookpromotionservice = () => {
   return (
+    <>
     <Container className="book-promotion-container" fluid>
       <h2 className="promotion-title">Book Promotion</h2>
       <p className="promotion-subtitle">Here are the book promotion packages offered by Reader Den</p>
@@ -64,6 +66,8 @@ export const Bookpromotionservice = () => {
         <p style={{marginBottom:"0px", paddingBottom:"30px"}}>This package is specially designed for authors who are just about to launch their book...</p>
       </div>
     </Container>
+    <Footer />
+    </>
   );
 };
 

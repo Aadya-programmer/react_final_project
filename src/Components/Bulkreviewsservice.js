@@ -1,8 +1,10 @@
 import React from 'react';
+import { Footer } from '../Reusable/Footer';
 // import './BulkReviews.css'; // Import your CSS file
 
 export const Bulkreviewsservice = () => {
   return (
+    <>
     <div className="proofreading-container">
       <section className="proofreading">
         <h2>Bulk Reviews</h2>
@@ -37,6 +39,8 @@ export const Bulkreviewsservice = () => {
         </div>
       </section>
     </div>
+    <Footer />
+    </>
   );
 };
 

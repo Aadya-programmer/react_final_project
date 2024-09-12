@@ -21,6 +21,7 @@ import { Bulkreviewsservice } from './Components/Bulkreviewsservice';
 import { BookReviewCard } from './Components/BookReviewCard';
 import { FunCorner } from './Components/Funcorner';
 import { OurStory } from './Components/OurStory';
+import { Login } from './Components/Login';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path="/homepage/reviews" element={<BookReviewCard />} />
         <Route path="/fun-corner" element={<FunCorner />} />
         <Route path="/our-story" element={<OurStory />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );
